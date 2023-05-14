@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Encriptador de Texto</title>
 </head>
 <body>
@@ -17,11 +18,12 @@
             </header>
             <section class="article__section section">
 
-                <textarea class="section__textarea" name="" id="" cols="30" rows="10">
+                <textarea class="section__textarea" name="textarea" id="" cols="30" rows="10" placeholder="Ingrese el texto aquí">
 
                 </textarea>
 
                 <fieldset class="section__container-bottons">
+                    <span class="section__span"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minusculas y sin acentos</span>
                     <input class= "section__bottons bottons--green" type="button" value="Encriptar">
                     <input class= "section__bottons bottons--ice" type="button" value="Desencriptar">
                 </fieldset>
@@ -33,7 +35,10 @@
             <figure class="notify-container__img-container">
                 <img class ="notify-container__img" src="/Proyect/Assets/Main_img.svg" alt="searching">
             </figure>
-            
+            <section class="notify-container__section">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </section>
         </div>
     </main>
 </body>
