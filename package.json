@@ -1,0 +1,11 @@
+{
+  "name": "proyect",
+  "version": "1.0.0",
+  "description": "Proyecto de encriptación de texto",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass -w SCSS:CSS"
+  },
+  "author": "Edgar",
+  "license": "ISC"
+}
