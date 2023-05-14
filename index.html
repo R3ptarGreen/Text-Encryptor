@@ -10,9 +10,11 @@
     <main class="main">
         <article class="main__article article">
             <!--logo-->
-            <header class="article__header">
+            <header class="article__header header">
+                <figure class="haeder__img-container">
+                    <img src="/Proyect/Assets/logo.svg" alt="">
+                </figure>
             </header>
-            <!--Área de texto y botones-->
             <section class="article__section section">
 
                 <textarea class="section__textarea" name="" id="" cols="30" rows="10">
@@ -20,16 +22,16 @@
                 </textarea>
 
                 <fieldset class="section__container-bottons">
-                    <input class= "section__bottons bottons-green" type="button" value="Encriptar">
-                    <input class= "section__bottons bottons-ice" type="button" value="Desencriptar">
+                    <input class= "section__bottons bottons--green" type="button" value="Encriptar">
+                    <input class= "section__bottons bottons--ice" type="button" value="Desencriptar">
                 </fieldset>
 
             </section>
         </article>
         <!--Imagen y notificación del estado del encriptador-->
-        <div class="main__notify-container">
-            <figure>
-                
+        <div class="main__notify-container notify-container">
+            <figure class="notify-container__img-container">
+                <img class ="notify-container__img" src="/Proyect/Assets/Main_img.svg" alt="searching">
             </figure>
             
         </div>
