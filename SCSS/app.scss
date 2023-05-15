@@ -1,1 +1,41 @@
 @use 'reset';
+$White: #FFFFFF;
+$ice: #EFFAFA;
+$Greenland-300: #28959F;
+$Gray-400: #495057;
+$Gray-500: #343A40;
+
+@mixin grid($fit-fill, $minmax, $gap){
+    display: grid;
+    grid-template-columns: repeat($fit-fill, minmax($minmax, 1fr));
+    gap: $gap;
+}
+@mixin flex($basil, $grow){
+    display: flex;
+    flex-basis: $basil;
+    flex-grow: $grow;
+}
+.main{
+    @include flex(23rem, 999);
+    padding: 2.5rem;
+    &__article{
+        max-width: 100%;
+        min-width: 70%;
+    }
+    &__notify-container{
+        background-color: $White;
+        border-radius: 2rem;
+        max-width: 100%;
+        min-width: 30%;
+        min-height: 59rem;
+    }
+}
+.article__header{
+    min-height: 6.25rem;
+}
+.header__img-container{
+    width: 9.3rem;
+}
+figure{
+    width: 5rem;
+}

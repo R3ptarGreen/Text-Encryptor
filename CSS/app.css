@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 a {
   display: block;
   text-decoration: none;
@@ -45,9 +45,40 @@ form, input, textarea, select, button, label {
 
 body {
   min-height: 100vh;
-  font-size: 112.5%;
-  font-family: "Open Sans";
+  font-size: 100%;
+  font-family: "Montserrat";
   font-weight: 400;
+  background-color: #EFFAFA;
+}
+
+.main {
+  display: flex;
+  flex-basis: 23rem;
+  flex-grow: 999;
+  padding: 2.5rem;
+}
+.main__article {
+  max-width: 100%;
+  min-width: 70%;
+}
+.main__notify-container {
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+  max-width: 100%;
+  min-width: 30%;
+  min-height: 59rem;
+}
+
+.article__header {
+  min-height: 6.25rem;
+}
+
+.header__img-container {
+  width: 9.3rem;
+}
+
+figure {
+  width: 5rem;
 }
 
 /*# sourceMappingURL=app.css.map */
