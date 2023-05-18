@@ -16,19 +16,22 @@ $Gray-500: #343A40;
     flex-grow: $grow;
 }
 .main{
-    @include flex(23rem, 999);
+    @include grid(auto-fit, 18rem, 0);
     padding: 2.5rem;
+    min-height: 100vh;
     &__article{
-        max-width: 100%;
-        min-width: 70%;
+        width: 80%;
     }
     &__notify-container{
         background-color: $White;
         border-radius: 2rem;
-        max-width: 100%;
-        min-width: 30%;
-        min-height: 59rem;
+        min-width: 18rem;
+        max-width: 25rem;
+        justify-self: end;
     }
+}
+.article__section{
+    margin-left: 20%;
 }
 .article__header{
     min-height: 6.25rem;
@@ -38,4 +41,30 @@ $Gray-500: #343A40;
 }
 figure{
     width: 5rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .main{
+        @include grid(auto-fit, 21.5rem, 0);
+    }
+    .main__notify-container{
+        justify-self: center;
+        max-width: 100%;
+        width: 100%;
+    }
+    .main__article{
+        justify-self: center;
+        width: 100%;
+    }
+    .article__section{
+        margin-left: 0;
+    }
+    .notify-container__img-container{
+        display: none;
+    }
+}
+@media screen and (max-width: 26rem) {
+    .main{
+        @include grid(auto-fit, 18rem, 0);
+    }
 }
