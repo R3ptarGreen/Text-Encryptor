@@ -18,10 +18,12 @@ $Gray-500: #343A40;
 .main{
     @include grid(auto-fit, 18rem, 1rem);
     padding: 2.5rem;
-    padding-left: 8rem;
+    padding-left: 10rem;
     min-height: 100vh;
     &__article{
         grid-column: span 2;
+        width: 100%;
+        display: inline-block;
     }
     &__notify-container{
         background-color: $White;
@@ -30,36 +32,33 @@ $Gray-500: #343A40;
         max-width: 24rem;
     }
 }
+.header{
+    min-height: 20%;
+}
+.header__img{
+        width: 8rem;
+}
 .section{
+    min-height: 80%;
+    display: grid;
+    grid-template-rows: 3 1fr;
     &__span{
         font-size: 0.75em;
+        align-self: end;
     }
-
     &__container-bottons{
-    @include flex(100%, 1);
+        @include flex(100%, 1);
+        justify-content: space-around;
     }
 }
-
-.section__textarea{
-grid-row: 80%;
-}
-.article__header{
-    min-height: 6.25rem;
-}
-.header__img-container{
-    width: 9.3rem;
-}
-picture{
-    width: 5rem;
-}
-@media screen and (max-width: 67rem) {
+@media screen and (max-width: 75rem) {
   .main__article{
     grid-column: span 1;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .main{
-        @include grid(auto-fit, 21.5rem, 1rem);
+        @include grid(auto-fit, 22rem, 1rem);
         padding-left: 2.5rem;
     }
     .main__article{
