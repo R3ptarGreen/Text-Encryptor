@@ -94,6 +94,11 @@ body {
   flex-grow: 1;
   justify-content: space-around;
 }
+.section__bottons {
+  background-color: #28959F;
+  border: 1px solid #28959F;
+  border-radius: 1.5rem;
+}
 
 @media screen and (max-width: 75rem) {
   .main__article {

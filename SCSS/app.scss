@@ -50,6 +50,11 @@ $Gray-500: #343A40;
         @include flex(100%, 1);
         justify-content: space-around;
     }
+    &__bottons{
+        background-color: $Greenland-300;
+        border: 1px solid $Greenland-300;
+        border-radius: 1.5rem;
+    }
 }
 @media screen and (max-width: 75rem) {
   .main__article{
