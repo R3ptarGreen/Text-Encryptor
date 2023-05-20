@@ -53,7 +53,7 @@ body {
 
 .main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 1rem;
   padding: 2.5rem;
   padding-left: 10rem;
@@ -61,10 +61,8 @@ body {
 }
 .main__article {
   grid-column: span 2;
-  width: 100%;
-  display: inline-block;
   display: grid;
-  grid-template-rows: 15% 85%;
+  grid-template-rows: 20% 80%;
 }
 .main__notify-container {
   background-color: #FFFFFF;
@@ -72,25 +70,27 @@ body {
   justify-self: end;
 }
 
+.header {
+  max-width: 100%;
+}
 .header__img {
   width: 10rem;
 }
 
 .section {
   display: grid;
-  grid-template-rows: 83% 5% 12%;
+  grid-template-rows: 80% 4% 16%;
 }
 .section__span {
-  font-size: 1em;
+  font-size: 0.75em;
   align-self: end;
   margin-bottom: 1rem;
 }
 .section__container-bottons {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
   gap: 3rem;
-  margin-bottom: 1rem;
-  width: 100%;
+  padding-bottom: 1rem;
 }
 .section__bottons {
   background-color: #28959F;
@@ -115,8 +115,8 @@ body {
 @media screen and (max-width: 860px) {
   .main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
     padding-left: 2.5rem;
   }
   .main__article {
@@ -128,22 +128,34 @@ body {
   }
   .main__notify-container {
     justify-self: center;
-    max-width: 100%;
     width: 100%;
   }
-  .section__bottons {
-    flex-wrap: wrap;
-    gap: 0.5rem;
+  .section__container-bottons {
+    padding-bottom: 0;
   }
 }
 @media screen and (max-width: 480px) {
   .main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    gap: 0;
+    gap: 3rem;
+    grid-template-rows: 80% 20%;
+  }
+  .main__article {
+    margin-bottom: 2rem;
+  }
+  .section {
+    grid-template-rows: 60% 5% 35%;
   }
   .section__container-bottons {
-    display: block;
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 20.56rem;
+    grid-template-rows: 50% 50%;
+    gap: 0.5rem;
+  }
+  .section__bottons {
+    min-height: 3rem;
   }
 }
 
