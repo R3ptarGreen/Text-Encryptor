@@ -40,16 +40,21 @@ $Gray-500: #343A40;
 .section{
     display: grid;
     grid-template-rows: 80% 4% 16%;
+    &__textarea{
+        font-size: 2rem;
+        color: $Greenland-300;
+        font-weight: bold;
+    }
     &__span{
-        font-size: 0.75em;
+        font-size: 0.80em;
         align-self: end;
         margin-bottom: 1rem;    
     }
-    &__container-bottons{
+    &__container-buttons{
         @include grid(auto-fit, 4rem, 3rem);
         padding-bottom: 1rem;   
     }
-    &__bottons{
+    &__buttons{
         background-color: $Greenland-300;
         border: 1px solid $Greenland-300;
         border-radius: 2.75rem;
@@ -59,7 +64,7 @@ $Gray-500: #343A40;
         font-weight: bold;
         cursor: pointer;
     }
-    .bottons--white{
+    .buttons--white{
         background-color: $White;
         color: $Greenland-300;
     }
@@ -85,7 +90,7 @@ $Gray-500: #343A40;
         justify-self: center;
         width: 100%;
     }
-   .section__container-bottons{
+   .section__container-buttons{
     padding-bottom: 0;
    }
 }
@@ -94,20 +99,17 @@ $Gray-500: #343A40;
         @include grid(auto-fit, 18rem, 3rem);
         grid-template-rows: 80% 20%;
     }
-    .main__article{
-        margin-bottom: 2rem;
-    }
     .section{
         grid-template-rows: 60% 5% 35%;
     }
-    .section__container-bottons{
+    .section__container-buttons{
         display: grid;
         grid-template-columns: 100%;
         max-width: 20.56rem;
         grid-template-rows: 50% 50%;
         gap: 0.5rem;
     }
-    .section__bottons{
+    .section__buttons{
         min-height: 3rem;
     }
 }

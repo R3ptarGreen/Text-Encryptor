@@ -81,18 +81,23 @@ body {
   display: grid;
   grid-template-rows: 80% 4% 16%;
 }
+.section__textarea {
+  font-size: 2rem;
+  color: #28959F;
+  font-weight: bold;
+}
 .section__span {
-  font-size: 0.75em;
+  font-size: 0.8em;
   align-self: end;
   margin-bottom: 1rem;
 }
-.section__container-bottons {
+.section__container-buttons {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
   gap: 3rem;
   padding-bottom: 1rem;
 }
-.section__bottons {
+.section__buttons {
   background-color: #28959F;
   border: 1px solid #28959F;
   border-radius: 2.75rem;
@@ -102,7 +107,7 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-.section .bottons--white {
+.section .buttons--white {
   background-color: #FFFFFF;
   color: #28959F;
 }
@@ -130,7 +135,7 @@ body {
     justify-self: center;
     width: 100%;
   }
-  .section__container-bottons {
+  .section__container-buttons {
     padding-bottom: 0;
   }
 }
@@ -141,20 +146,17 @@ body {
     gap: 3rem;
     grid-template-rows: 80% 20%;
   }
-  .main__article {
-    margin-bottom: 2rem;
-  }
   .section {
     grid-template-rows: 60% 5% 35%;
   }
-  .section__container-bottons {
+  .section__container-buttons {
     display: grid;
     grid-template-columns: 100%;
     max-width: 20.56rem;
     grid-template-rows: 50% 50%;
     gap: 0.5rem;
   }
-  .section__bottons {
+  .section__buttons {
     min-height: 3rem;
   }
 }
