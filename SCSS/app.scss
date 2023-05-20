@@ -16,7 +16,7 @@ $Gray-500: #343A40;
     flex-grow: $grow;
 }
 .main{
-    @include grid(auto-fit, 18rem, 1rem);
+    @include grid(auto-fit, 18rem, 4rem);
     padding: 2.5rem;
     padding-left: 10rem;
     min-height: 100vh;
@@ -51,7 +51,7 @@ $Gray-500: #343A40;
         margin-bottom: 1rem;    
     }
     &__container-buttons{
-        @include grid(auto-fit, 4rem, 3rem);
+        @include grid(auto-fit, 4rem, 2.75rem);
         padding-bottom: 1rem;   
     }
     &__buttons{
@@ -69,7 +69,7 @@ $Gray-500: #343A40;
         color: $Greenland-300;
     }
 }
-@media screen and (max-width: 68rem) {
+@media screen and (max-width: 75rem) {
   .main__article{
     grid-column: span 1;
   }
