@@ -65,7 +65,7 @@ $Gray-500: #343A40;
     }
     &__container-buttons{
         @include grid(auto-fit, 4rem, 2.75rem);
-        padding-bottom: 1rem;   
+        padding-bottom: 1rem;
     }
     &__buttons{
         background-color: $Greenland-300;
@@ -77,13 +77,33 @@ $Gray-500: #343A40;
         font-weight: bold;
         cursor: pointer;
     }
-    .buttons--white{
-        background-color: $White;
-        color: $Greenland-300;
+}
+.notify-container{
+    overflow: hidden;
+    &__img{
+        height: 60%;
+        margin-top: 30%;
+        padding: 1rem;
+    }
+    &__section{
+        padding: 0.5rem;
+        height: 40%;
+        width: 100%;
+        text-align: center;
     }
 }
+h3{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.buttons--white{
+    background-color: $White;
+    color: $Greenland-300;
+}
+
 @media screen and (max-width: 75rem) {
-  .main__article{
+    .main__article{
     grid-column: span 1;
   }
 }
@@ -107,12 +127,21 @@ $Gray-500: #343A40;
     padding-bottom: 0;
    }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 470px) {
     .main{
         @include grid(auto-fit, 18rem, 3rem);
         grid-template-rows: 80% 20%;
         &__article{
             grid-template-rows: 15% 85%;
+            padding: 0 1rem;
+            justify-content: center;
+        }
+        .article__section{
+            justify-self: center;
+        }
+        .section__container-buttons{
+            justify-self: center;
+            width: 100%;
         }
     }
     .section{
