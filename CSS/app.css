@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 a {
   display: block;
   text-decoration: none;
@@ -68,6 +68,7 @@ body {
   background-color: #FFFFFF;
   border-radius: 2rem;
   justify-self: end;
+  box-shadow: 1px 11px 8px 2px rgba(0, 0, 0, 0.15);
 }
 
 .header {
@@ -130,7 +131,7 @@ body {
   padding: 1rem;
 }
 .notify-container__section {
-  padding: 0.5rem;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
   height: 40%;
   width: 100%;
   text-align: center;
@@ -138,7 +139,7 @@ body {
 
 h3 {
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -169,6 +170,7 @@ h3 {
   .main__notify-container {
     justify-self: center;
     width: 100%;
+    max-height: 45%;
   }
   .section__container-buttons {
     padding-bottom: 0;
@@ -192,6 +194,9 @@ h3 {
   .main .section__container-buttons {
     justify-self: center;
     width: 100%;
+  }
+  .main .main__notify-container {
+    max-height: 70%;
   }
   .section {
     grid-template-rows: 60% 5% 35%;
