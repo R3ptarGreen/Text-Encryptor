@@ -75,7 +75,8 @@ body {
   max-width: 100%;
 }
 .header__img {
-  width: 10rem;
+  max-width: 10rem;
+  height: 100%;
 }
 
 .section {
@@ -174,6 +175,13 @@ h3 {
   }
   .section__container-buttons {
     padding-bottom: 0;
+  }
+  .header {
+    max-width: 100%;
+  }
+  .header__img {
+    max-width: 5rem;
+    height: 100%;
   }
 }
 @media screen and (max-width: 470px) {
