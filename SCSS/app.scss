@@ -104,7 +104,12 @@ h3{
     background-color: $White;
     color: $Greenland-300;
 }
-
+.textarea-output{
+    padding-top: 1rem;
+    text-align: center;
+    width: 100%;
+    resize:none;
+}
 @media screen and (max-width: 75rem) {
     .main__article{
     grid-column: span 1;

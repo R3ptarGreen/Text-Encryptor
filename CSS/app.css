@@ -149,6 +149,13 @@ h3 {
   color: #28959F;
 }
 
+.textarea-output {
+  padding-top: 1rem;
+  text-align: center;
+  width: 100%;
+  resize: none;
+}
+
 @media screen and (max-width: 75rem) {
   .main__article {
     grid-column: span 1;
