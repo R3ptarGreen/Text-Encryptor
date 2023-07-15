@@ -133,8 +133,8 @@ body {
 }
 .notify-container__section {
   padding: 1rem 0.5rem 0.5rem 0.5rem;
-  height: 40%;
   width: 100%;
+  min-height: 40%;
   text-align: center;
 }
 
@@ -149,11 +149,24 @@ h3 {
   color: #28959F;
 }
 
+.output-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .textarea-output {
-  padding-top: 1rem;
+  padding: 1rem;
+  align-self: center;
   text-align: center;
   width: 100%;
   resize: none;
+}
+
+.textarea-output:focus {
+  border: none;
+  cursor: text;
+  outline: none;
 }
 
 @media screen and (max-width: 75rem) {

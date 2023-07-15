@@ -18,9 +18,12 @@ function encrypt() {
     }
     
   outputText.innerHTML =
-    '<textarea readonly id="input-text" class="textarea-output">' +
-    resultEncrypt +
-    "</textarea>";
+  
+    '<div class="output-container">' + 
+      '<textarea readonly id="input-text" class="textarea-output">' +
+        resultEncrypt +
+      '</textarea>' +
+    '</div>';
 }
 //Función para desencriptar
 function decrypt() {
@@ -38,7 +41,11 @@ function decrypt() {
     }
 
   outputText.innerHTML =
-    '<textarea readonly id="input-text" class="textarea-output">' +
+    
+  '<div class="output-container">' + 
+  '<textarea readonly id="input-text" class="textarea-output">' +
     resultDecrypt +
-    "</textarea>";
+  '</textarea>' +
+'</div>';
+
 }
