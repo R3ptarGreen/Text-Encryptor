@@ -1,11 +1,11 @@
 {
-  "name": "proyect",
+  "name": "Encriptador",
   "version": "1.0.0",
-  "description": "Proyecto de encriptación de texto",
+  "description": "Proyecto creado como challenge por alura latam",
   "main": "index.js",
   "scripts": {
     "scss": "sass -w SCSS:CSS"
   },
-  "author": "Edgar",
+  "author": "Edgar Mendez",
   "license": "ISC"
 }
