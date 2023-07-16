@@ -22,11 +22,11 @@ Este es un challenge impartido por Alura latam en colaboración con Oracle ONE, 
 
 ### The challenge
 
-Los usuarios serian capaz de:
+Los usuarios serían capaz de:
 
 - Diseñar y maquetar con : CSS, FIGMA Y HTML.
 - Lógica de programación con: JavaScript.
-- Trabajo en equipo y control de versiones como: GIT Y GITHUB.
+- Trabajo en equipo y control de versíones como: GIT Y GITHUB.
 
 ### Screenshot
 
@@ -61,7 +61,7 @@ Continuare desarrollando más el metodo BEM y el JavaScript, como adicional me e
 
 ### Useful resources
 
-- [CSS TOOL](https://cssgenerator.org/) - Este material fue de gran ayuda para maquetar mejor las sobras de los bordes de las cajas.
+- [CSS TOOL](https://cssgenerator.org/) - Este material fue de gran ayuda para maquetar mejor las sombras de los bordes de las cajas.
 
 ## Author
 
