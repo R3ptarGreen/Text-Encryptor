@@ -30,8 +30,8 @@ Los usuarios serian capaz de:
 
 ### Screenshot
 
-![](/Proyect/Assets/Screen%20Shot%20D.png)
-![](/Proyect/Assets/Screenshot%20M.png)
+![](/Assets/Screen%20Shot%20D.png)
+![](/Assets/Screenshot%20M.png)
 
 
 ### Links
