@@ -37,7 +37,7 @@ Los usuarios serían capaz de:
 ### Links
 
 - Solución URL: [Solucion subida a GitHub](https://github.com/R3ptarGreen/Text-Encryptor.git)
-- Live Site URL: [Encriptador de texto](https://creative-brigadeiros-4f104e.netlify.app/)
+- Sitio Web: [Encriptador de texto](https://r3ptargreen.github.io/Text-Encryptor/)
 
 ## My process
 
