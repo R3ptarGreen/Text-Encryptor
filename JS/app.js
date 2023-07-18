@@ -58,5 +58,6 @@ function copyOutput() {
   copyText.select();
   copyText.setSelectionRange(0, 99999); //solución de error para firefox
   document.execCommand("copy");
+  inputText.select();
   alert("Texto copiado :)")
 }
