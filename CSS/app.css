@@ -65,6 +65,8 @@ body {
   grid-template-rows: 20% 80%;
 }
 .main__notify-container {
+  overflow: hidden;
+  min-height: 90vh;
   background-color: #FFFFFF;
   border-radius: 2rem;
   justify-self: end;
@@ -114,7 +116,7 @@ body {
 }
 .section__buttons {
   background-color: #28959F;
-  border: 1px solid #28959F;
+  border: 1px solid;
   border-radius: 1rem;
   color: #FFFFFF;
   text-align: center;
@@ -150,16 +152,27 @@ h3 {
 }
 
 .output-container {
-  display: flex;
-  align-items: center;
+  display: grid;
   height: 100%;
+}
+.output-container__btn-copy {
+  cursor: pointer;
+  justify-self: center;
+  align-self: start;
+  width: 80%;
+  border: 1px solid;
+  border-radius: 1rem;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .textarea-output {
   padding: 1rem;
-  align-self: center;
+  align-self: end;
   text-align: center;
   width: 100%;
+  min-height: 50%;
   resize: none;
 }
 
@@ -184,6 +197,7 @@ h3 {
   .main__article {
     justify-self: center;
     width: 100%;
+    min-height: 35vh;
   }
   .notify-container__img-container {
     display: none;
@@ -191,7 +205,7 @@ h3 {
   .main__notify-container {
     justify-self: center;
     width: 100%;
-    max-height: 45%;
+    min-height: 35vh;
   }
   .section__container-buttons {
     padding-bottom: 0;
@@ -224,7 +238,7 @@ h3 {
     width: 100%;
   }
   .main .main__notify-container {
-    max-height: 70%;
+    min-height: 35vh;
   }
   .section {
     grid-template-rows: 60% 5% 35%;

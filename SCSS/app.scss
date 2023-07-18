@@ -27,6 +27,8 @@ $Gray-500: #343A40;
         grid-template-rows: 20% 80%;
     }
     &__notify-container{
+        overflow: hidden;
+        min-height: 90vh;
         background-color: $White;
         border-radius: 2rem;
         justify-self: end;
@@ -72,7 +74,7 @@ $Gray-500: #343A40;
     }
     &__buttons{
         background-color: $Greenland-300;
-        border: 1px solid $Greenland-300;
+        border: 1px solid;
         border-radius: 1rem;
         color: $White;
         text-align: center;
@@ -105,15 +107,26 @@ h3{
     color: $Greenland-300;
 }
 .output-container{
-    display: flex;
-    align-items: center;
+    display: grid;
     height: 100%;
+    &__btn-copy{
+        cursor: pointer;
+        justify-self: center;
+        align-self: start;
+        width: 80%;
+        border: 1px solid;
+        border-radius: 1rem;
+        padding: 1rem 0;
+        font-size: 1.20rem;
+        font-weight: bold;
+    }
 }
 .textarea-output{
     padding: 1rem;
-    align-self: center;
+    align-self: end;
     text-align: center;
     width: 100%;
+    min-height: 50%;
     resize:none;
 }
 .textarea-output:focus{
@@ -134,6 +147,7 @@ h3{
     .main__article{
         justify-self: center;
         width: 100%;
+        min-height: 35vh;
     }
     .notify-container__img-container{
         display: none;
@@ -141,7 +155,7 @@ h3{
     .main__notify-container{
         justify-self: center;
         width: 100%;
-        max-height: 45%;
+        min-height: 35vh;
     }
    .section__container-buttons{
     padding-bottom: 0;
@@ -171,7 +185,7 @@ h3{
             width: 100%;
         }
         .main__notify-container{
-            max-height: 70%;
+            min-height: 35vh;
         }
     }
     .section{
