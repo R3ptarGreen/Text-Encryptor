@@ -22,22 +22,22 @@ Este es un challenge impartido por Alura latam en colaboración con Oracle ONE, 
 
 ### The challenge
 
-Los usuarios serian capaz de:
+Los usuarios serían capaz de:
 
 - Diseñar y maquetar con : CSS, FIGMA Y HTML.
 - Lógica de programación con: JavaScript.
-- Trabajo en equipo y control de versiones como: GIT Y GITHUB.
+- Trabajo en equipo y control de versíones como: GIT Y GITHUB.
 
 ### Screenshot
 
-![](/Proyect/Assets/Screen%20Shot%20D.png)
-![](/Proyect/Assets/Screenshot%20M.png)
+![](/Assets/Screen%20Shot%20D.png)
+![](/Assets/Screenshot%20M.png)
 
 
 ### Links
 
 - Solución URL: [Solucion subida a GitHub](https://github.com/R3ptarGreen/Text-Encryptor.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Encriptador de texto](https://creative-brigadeiros-4f104e.netlify.app/)
 
 ## My process
 
@@ -61,7 +61,7 @@ Continuare desarrollando más el metodo BEM y el JavaScript, como adicional me e
 
 ### Useful resources
 
-- [CSS TOOL](https://cssgenerator.org/) - Este material fue de gran ayuda para maquetar mejor las sobras de los bordes de las cajas.
+- [CSS TOOL](https://cssgenerator.org/) - Este material fue de gran ayuda para maquetar mejor las sombras de los bordes de las cajas.
 
 ## Author
 
