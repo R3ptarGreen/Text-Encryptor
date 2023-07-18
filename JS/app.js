@@ -23,6 +23,7 @@ function encrypt() {
       '<textarea readonly id="input-text" class="textarea-output">' +
         resultEncrypt +
       '</textarea>' +
+      '<button onclick="copyOutput()" class="output-container__btn-copy buttons--white">copiar</button>' +
     '</div>';
 }
 //Función para desencriptar
@@ -46,6 +47,16 @@ function decrypt() {
   '<textarea readonly id="input-text" class="textarea-output">' +
     resultDecrypt +
   '</textarea>' +
+  '<button onclick="copyOutput()" class="output-container__btn-copy buttons--white">copiar</button>' +
 '</div>';
+}
 
+//Funcion de copiado
+function copyOutput() {
+  let copyText = document.querySelector(".textarea-output");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); //solución de error para firefox
+  document.execCommand("copy");
+  alert("Texto copiado :)")
 }
