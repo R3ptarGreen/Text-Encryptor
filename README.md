@@ -6,7 +6,7 @@ Este es un challenge impartido por Alura latam en colaboración con Oracle ONE, 
 ## Tabla de contenido
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The challenge](#the-challenge) 
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
